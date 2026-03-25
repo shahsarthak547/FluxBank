@@ -45,7 +45,7 @@ const Overview = () => {
 
     return (
         <div className="overview-page">
-            <h1 style={{ marginBottom: '30px' }}>Dashboard Overview</h1>
+            <h1 style={{ marginBottom: '30px' }}>Admin Dashboard</h1>
             <div className="panel-row" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
                 {cards.map((card, i) => (
                     <motion.div

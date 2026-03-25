@@ -78,7 +78,6 @@ gb = GradientBoostingClassifier(
     subsample=0.8,
     random_state=42,
 )
-
 # Soft voting: combines probability estimates of both models
 ensemble = VotingClassifier(
     estimators=[("rf", rf), ("gb", gb)],
